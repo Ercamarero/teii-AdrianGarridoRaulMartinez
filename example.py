@@ -14,7 +14,7 @@ def setup_logging(logging_level):
     # TODO
     #   Configura logging para enviar la salida a un archivo
 
-    logging.basicConfig(filename= "Example.log" ,format='%(asctime)s - %(name)s - %(levelname)s - %(message)s ')
+    logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s ')
     logger = logging.getLogger(__name__)
     logger.setLevel(logging_level)
     logger.info("Logger creado")
@@ -34,7 +34,7 @@ def plot(pandas_series, ticker, logger):
 def main():
     """ Muestra como usar teii-finance. """
 
-    logger = setup_logging(logging.INFO)
+    logger = setup_logging(logging.WARNING)
 
     logger.info("Inicio")
 
