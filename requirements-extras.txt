@@ -1,0 +1,8 @@
+# example.py
+matplotlib==3.7.5
+# VSCode
+# ipykernel==6.29.4 # Dependencia de jupyterlab
+# Jupyter Lab
+jupyterlab==4.1.2
+jupyterlab-lsp==5.0.1
+jedi-language-server==0.41.3
