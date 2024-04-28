@@ -40,7 +40,7 @@ jobs:
     - name: Run flake8, mypy and pytest with tox
       run: |
         tox -e py
-"""
+
   build-and-publish-package:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
@@ -63,7 +63,7 @@ jobs:
       run: |
         pip install setuptools wheel
         python setup.py bdist_wheel
-
+"""
     # Publishes the package to TestPypi
     - name: Publish package
       env:
