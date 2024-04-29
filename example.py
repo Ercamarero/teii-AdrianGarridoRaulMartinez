@@ -56,7 +56,7 @@ def main():
         #   Filtra los datos para mostrar únicamente el año 2023
 
         # Genera una serie de Pandas con precio de cierre semanal
-        pd_series = tf_client.weekly_price()
+        pd_series = tf_client.weekly_price(from_date='2023-01-01', to_date='2023-12-31')
 
         logger.info(pd_series)
 
