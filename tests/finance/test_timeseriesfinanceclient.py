@@ -2,9 +2,11 @@
 
 
 import datetime as dt
+import os
 
 import pytest
 from pandas.testing import assert_series_equal
+from unittest.mock import patch
 
 from teii.finance import FinanceClientInvalidAPIKey, TimeSeriesFinanceClient
 
@@ -12,11 +14,20 @@ from teii.finance import FinanceClientInvalidAPIKey, TimeSeriesFinanceClient
 def test_constructor_success(api_key_str,
                              mocked_requests):
     TimeSeriesFinanceClient("AAPL", api_key_str)
+    TimeSeriesFinanceClient("IBM", api_key_str)
 
 
 def test_constructor_failure_invalid_api_key():
     with pytest.raises(FinanceClientInvalidAPIKey):
         TimeSeriesFinanceClient("IBM")
+
+
+def test_constructor_env(mocked_requests, monkeypatch):
+    monkeypatch.setenv('TEII_FINANCE_API_KEY', 'https://www.alphavantage.co/support/#api-key')
+    # Llama al constructor de TimeSeriesFinanceClient
+    TimeSeriesFinanceClient("AAPL")
+
+    # Asegura que el cliente se ha creado correctamente
 
 
 def test_weekly_price_invalid_dates(api_key_str,
