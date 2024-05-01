@@ -5,6 +5,7 @@ import datetime as dt
 import os
 
 import pytest
+import requests
 from pandas.testing import assert_series_equal
 from unittest.mock import patch
 
@@ -29,6 +30,17 @@ def test_constructor_env(mocked_requests, monkeypatch):
 
     # Asegura que el cliente se ha creado correctamente
 
+@os.path('teii.finance.finance.requests.get')
+def test_constructor_unsuccessful_request(self,mock_get):
+    mock_get.side_effect = ConnectionError()
+    with pytest.raises(FinanceClientAPIError):
+        TimeSeriesFinanceClient("IBM")
+
+ 
+def test_constructor_invalid_data(mock_get):
+    TimeSeriesFinanceClient._json_data = None
+    with pytest.raises(FinanceClientInvalidData):
+        TimeSeriesFinanceClient._build_data_frame()
 
 def test_weekly_price_invalid_dates(api_key_str,
                                     mocked_requests):
