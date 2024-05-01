@@ -36,7 +36,7 @@ def test_constructor_unsuccessful_request(self,mock_get):
     with pytest.raises(FinanceClientAPIError):
         TimeSeriesFinanceClient("IBM")
 
- 
+
 def test_constructor_invalid_data(mock_get):
     TimeSeriesFinanceClient._json_data = None
     with pytest.raises(FinanceClientInvalidData):
