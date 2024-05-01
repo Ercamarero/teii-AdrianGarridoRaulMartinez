@@ -43,8 +43,7 @@ class TimeSeriesFinanceClient(FinanceClient):
         #   Comprueba que no se produce ningún error y genera excepción
         #   'FinanceClientInvalidData' en caso contrario
         if not self._json_data:
-            raise FinanceClientInvalidData("Invalid JSON data provided")
-        
+            raise FinanceClientInvalidData("Invalid JSON data provided")     
         try:
             # Build Panda's data frame
             data_frame = pd.DataFrame.from_dict(self._json_data, orient='index', dtype='float')
