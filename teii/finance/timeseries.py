@@ -157,6 +157,8 @@ class TimeSeriesFinanceClient(FinanceClient):
         # TODO
         #   Comprueba que from_date <= to_date y genera excepción
         #   'FinanceClientParamError' en caso de error
+        if isinstance(to_date, dt.date) and isinstance(from_date, dt.date) and to_date <= from_date:
+            raise FinanceClientInvalidData("to_date cannot be less than from_date")
 
         # FIXME: type hint error
         if from_date is not None and to_date is not None:

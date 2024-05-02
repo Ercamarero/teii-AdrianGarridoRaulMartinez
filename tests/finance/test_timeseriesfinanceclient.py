@@ -2,13 +2,12 @@
 
 
 import datetime as dt
-import os
 
 import pytest
 from pandas.testing import assert_series_equal
-from unittest.mock import patch
 
-from teii.finance import FinanceClientInvalidAPIKey, TimeSeriesFinanceClient
+from teii.finance import (FinanceClientInvalidAPIKey, FinanceClientInvalidData,
+                          TimeSeriesFinanceClient)
 
 
 def test_constructor_success(api_key_str,
@@ -32,8 +31,9 @@ def test_constructor_env(mocked_requests, monkeypatch):
 
 def test_weekly_price_invalid_dates(api_key_str,
                                     mocked_requests):
-    # TODO
-    pass
+    with pytest.raises(FinanceClientInvalidData):
+        fc = TimeSeriesFinanceClient("IBM", api_key_str)
+        fc.weekly_price(from_date=dt.date(year=2023, month=1, day=1), to_date=dt.date(year=2022, month=1, day=1))
 
 
 def test_weekly_price_no_dates(api_key_str,
