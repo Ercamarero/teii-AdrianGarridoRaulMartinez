@@ -51,7 +51,7 @@ class TimeSeriesFinanceClient(FinanceClient):
             # Procesar la respuesta si es necesario
         except requests.exceptions.ConnectionError:
             raise FinanceClientAPIError("Failed to connect to the API")
-            
+           
         super().__init__(ticker, api_key, logging_level)
 
         self._build_data_frame()
