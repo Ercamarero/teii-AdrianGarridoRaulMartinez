@@ -129,8 +129,8 @@ class FinanceClient(ABC):
             params = self._build_base_query_url_params()
             response = requests.get(f"{url}{params}")
             assert response.status_code == 200
-        except Exception as e:
-            raise FinanceClientAPIError("Unsuccessful API access") from e
+        except Exception:
+            raise FinanceClientAPIError("Unsuccessful API access")
         else:
             self._logger.info("Successful API access "
                               f"[URL: {response.url}, status: {response.status_code}]")
