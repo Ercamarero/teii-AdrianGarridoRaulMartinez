@@ -19,7 +19,9 @@ Clase Cliente:
 recoge los datos de la API en el momento de contruccion de los datos en el JSON.
 """
 
+
 class FinanceClient(ABC):
+
     """ Wrapper around the Finance API. """
 
     _FinanceBaseQueryURL = "https://www.alphavantage.co/query?"  # Class variable
@@ -27,16 +29,16 @@ class FinanceClient(ABC):
     Contructor de la clase
     Parameters
     ----------
-    str: String 
+    str: String
         String para localizar el lugar de la api de donde extraemos los datos requeridos.
-    logging_level : log 
-        Parametro para la gestion del debug de la aplicacion. 
+    logging_level : log
+        Parametro para la gestion del debug de la aplicacion.
     logging_file: txt
-        Fichero donde guardamos las posibles fallas generadas por nuestra app. 
+        Fichero donde guardamos las posibles fallas generadas por nuestra app.
     Returns
     --------
-    FinanceCLient: self 
-        Objeto wrapper de la API Finance. 
+    FinanceCLient: self
+        Objeto wrapper de la API Finance.
     """
     def __init__(self, ticker: str,
                  api_key: Optional[str] = None,
@@ -83,11 +85,10 @@ class FinanceClient(ABC):
 
     """
     def _build_base_query_url(cls) -> str:
-    Genera la URL asociada al API Key. 
+    Genera la URL asociada al API Key.
     Returns
     --------
-    String -> URL 
-    
+    String -> URL
     """
     @classmethod
     def _build_base_query_url(cls) -> str:
@@ -115,7 +116,7 @@ class FinanceClient(ABC):
 
     """
     def _query_api(self) -> requests.Response:
-    Encargado de la gestion de peticion de objetos a la API. 
+    Encargado de la gestion de peticion de objetos a la API.
     Returns
     -------
     Objetos tipo Requests
@@ -150,10 +151,11 @@ class FinanceClient(ABC):
 
     """
     def _build_query_data_key(cls) -> str:
-    funcion para generar la data key 
+    funcion para generar la data key
     Returns
     -------
-    String 
+    String
+        La key generada
     """
     @abstractmethod  # TODO: mypy does not like @abstractclassmethod
     def _build_query_data_key(cls) -> str:
@@ -163,11 +165,11 @@ class FinanceClient(ABC):
 
     """
      def _process_query_response(self, response: requests.Response) -> None:
-     Lectura de lo obtenido en _query_api() y primera gestion de los datos. 
+     Lectura de lo obtenido en _query_api() y primera gestion de los datos.
      Raises
      ------
      FinanceClientInvalidData
-        Si los datos descargados no son validos. 
+        Si los datos descargados no son validos.
     """
 
     def _process_query_response(self, response: requests.Response) -> None:
@@ -185,17 +187,15 @@ class FinanceClient(ABC):
         self._logger.info(f"Metadata: '{self._json_metadata}'")
         self._logger.info(f"Data: '{json.dumps(self._json_data)[0:218]}...'")
 
-   
     """
     def _validate_query_data(self) -> None:
-        Da el visto bueno a los datos. 
+        Da el visto bueno a los datos.
     """
     @abstractmethod
     def _validate_query_data(self) -> None:
         """ Validate query data. """
 
         pass  # pragma: nocover
-    
     """
     def to_pandas(self) -> pd.DataFrame:
     Geenera un Dataframe de pandas a partir de los datos de ticker.json.
@@ -212,14 +212,14 @@ class FinanceClient(ABC):
 
     """
     def to_csv(self, path2file: Path) -> Path:
-        Transforma el json data a un CSV 
+        Transforma el json data a un CSV
         Parametres
         -----------
         path2file: string ("Path")
-            Ruta del archivo 
+            Ruta del archivo
         Raises
         -------
-        FinanceClientIOError 
+        FinanceClientIOError
             Error de entrada salida imposible localizar path2file
         Returns
         --------
