@@ -2,10 +2,10 @@
 
 
 import datetime as dt
-
-import pytest
 import requests
+import pytest
 from pandas.testing import assert_series_equal
+
 from teii.finance import (FinanceClientInvalidAPIKey, FinanceClientInvalidData,
                           TimeSeriesFinanceClient, FinanceClientAPIError)
 
