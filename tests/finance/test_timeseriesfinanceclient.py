@@ -65,19 +65,20 @@ def test_weekly_price_dates(api_key_str,
     assert_series_equal(ps, pandas_series_IBM_prices_filtered)
 
 
-def test_weekly_volume_invalid_dates(api_key_str,
-                                     mocked_requests):
-    # TODO
-    pass
+def test_weekly_volume_invalid_dates(api_key_str, mocked_requests):
+    with pytest.raises(FinanceClientInvalidData):
+        fc = TimeSeriesFinanceClient("IBM", api_key_str)
+        fc.weekly_volume(from_date=dt.date(year=2023, month=1, day=1), to_date=dt.date(year=2022, month=1, day=1))
 
 
-def test_weekly_volume_no_dates(api_key_str,
-                                mocked_requests):
-    # TODO
-    pass
+def test_weekly_volume_no_dates(api_key_str, mocked_requests):
+    fc = TimeSeriesFinanceClient("IBM", api_key_str)
+    ps = fc.weekly_volume()
+    assert ps is not None
 
 
-def test_weekly_volume_dates(api_key_str,
-                             mocked_requests):
-    # TODO
-    pass
+def test_weekly_volume_dates(api_key_str, mocked_requests):
+    fc = TimeSeriesFinanceClient("IBM", api_key_str)
+    ps = fc.weekly_volume(dt.date(year=2021, month=1, day=1),
+                          dt.date(year=2023, month=12, day=31))
+    assert ps is not None
