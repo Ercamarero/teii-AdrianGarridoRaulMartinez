@@ -90,6 +90,6 @@ def test_weekly_volume_dates(api_key_str, mocked_requests):
 
 
 def test_constructor_unsuccessful_request():
-    with patch('teii.finance.timeseries.requests.get', side_effect=ConnectionError):
+    with patch('teii.finance.finance._query_api', side_effect=ConnectionError):
         with pytest.raises(FinanceClientAPIError):
             TimeSeriesFinanceClient("AAPL", "dummy_api_key")
