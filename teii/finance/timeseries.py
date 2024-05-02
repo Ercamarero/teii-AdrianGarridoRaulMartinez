@@ -122,9 +122,34 @@ class TimeSeriesFinanceClient(FinanceClient):
         #   'FinanceClientParamError' en caso de error
         if isinstance(to_date, dt.date) and isinstance(from_date, dt.date) and to_date <= from_date:
             raise FinanceClientInvalidData("to_date cannot be less than from_date")
-
         # FIXME: type hint error
         if from_date is not None and to_date is not None:
             series = series.loc[from_date:to_date]   # type: ignore
 
         return series
+
+    def highest_weekly_variation(self,
+                                 from_date: Optional[dt.date] = None,
+                                 to_date: Optional[dt.date] = None) -> Union[dt.date, float, float, float]:
+        """ Return highest weekly variation from 'from_date' to 'to_date'. """
+        assert self._data_frame is not None
+
+        # Filtrar el DataFrame según las fechas proporcionadas
+        if from_date is not None and to_date is not None:
+            data = self._data_frame.loc[from_date:to_date]
+        else:
+            data = self._data_frame
+
+        # Calcular la variación semanal para cada fila del DataFrame
+        data['weekly_variation'] = data['high'] - data['low']
+
+        # Encontrar la fila con la mayor variación semanal
+        max_variation_row = data.loc[data['weekly_variation'].idxmax()]
+
+        # Extraer los valores relevantes de la fila con la mayor variación
+        fecha = max_variation_row.name.date()
+        high = max_variation_row['high']
+        low = max_variation_row['low']
+        weekly_variation = max_variation_row['weekly_variation']
+
+        return fecha, high, low, weekly_variation
