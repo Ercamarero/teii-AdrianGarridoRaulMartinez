@@ -196,18 +196,3 @@ class TimeSeriesFinanceClient(FinanceClient):
             series = series.loc[from_date:to_date]   # type: ignore
 
         return series
-
-    """
-    def yearly_dividends(self, 
-                         from_year:Optional [dt.date] = None, 
-                         to_year: Optional[dt.date] = None) -> pd.Series:
-        assert self._data_frame is not None
-        series = self._data_frame['dividends']
-
-        if isinstance(to_year, dt.date) and isinstance(from_year, dt.date) and to_date <= from_date:
-            raise FinanceClientInvalidData("to_date cannot be less than from_year")
-
-        if from_year is not None and to_year is not None:
-            series = series.loc[from_year:to_year] 
-        return series
-   """
