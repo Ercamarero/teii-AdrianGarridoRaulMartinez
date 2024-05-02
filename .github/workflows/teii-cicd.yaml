@@ -30,19 +30,19 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
 
-    # Sets up python version
+    # Set up Python
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v2
       with:
         python-version: ${{ matrix.python-version }}
 
-    # Installs tox
+    # Install tox
     - name: Install tox
       run: |
-        pip install tox==4.14.2
+        python -m pip install tox==4.14.2
 
-    # Runs tox
-    - name: Run flake8, mypy and pytest with tox
+    # Run flake8, mypy, and pytest with tox
+    - name: Run flake8, mypy, and pytest with tox
       run: |
         tox -e py${{ matrix.python-version | replace(".", "") }}
 
@@ -61,14 +61,14 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
 
-    # Sets up python version
+    # Set up Python 3.8
     - name: Set up Python 3.8
       uses: actions/setup-python@v2
       with:
         python-version: 3.8
 
-    # Builds the package
+    # Build the package
     - name: Build package
       run: |
-        pip install setuptools wheel
+        python -m pip install setuptools wheel
         python setup.py bdist_wheel
