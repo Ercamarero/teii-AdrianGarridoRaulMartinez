@@ -3,6 +3,7 @@
 
 import datetime as dt
 import logging
+import requests
 from typing import Optional, Union
 
 import pandas as pd
@@ -45,7 +46,12 @@ class TimeSeriesFinanceClient(FinanceClient):
                  api_key: Optional[str] = None,
                  logging_level: Union[int, str] = logging.WARNING) -> None:
         """ TimeSeriesFinanceClient constructor. """
-
+        try:
+            response = requests.get("https://api.example.com/data", params={"apikey": api_key})
+            # Procesar la respuesta si es necesario
+        except requests.exceptions.ConnectionError:
+            raise FinanceClientAPIError("Failed to connect to the API")
+    
         super().__init__(ticker, api_key, logging_level)
 
         self._build_data_frame()
