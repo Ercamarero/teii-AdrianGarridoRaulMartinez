@@ -16,12 +16,6 @@ def test_constructor_success(api_key_str,
     TimeSeriesFinanceClient("AAPL", api_key_str)
     TimeSeriesFinanceClient("IBM", api_key_str)
 
-def test_constructor_unsuccessful_request():
-    with pytest.raises(FinanceClientAPIError):
-        with requests.Session() as session:
-            session.get.side_effect = requests.exceptions.ConnectionError("Mocked Connection Error")
-            TimeSeriesFinanceClient("AAPL", "mock_api_key")
-
 
 def test_constructor_failure_invalid_api_key():
     with pytest.raises(FinanceClientInvalidAPIKey):
@@ -92,3 +86,10 @@ def test_weekly_volume_dates(api_key_str, mocked_requests):
     ps = fc.weekly_volume(dt.date(year=2021, month=1, day=1),
                           dt.date(year=2023, month=12, day=31))
     assert ps is not None
+
+
+def test_constructor_unsuccessful_request():
+    with pytest.raises(FinanceClientAPIError):
+        with requests.Session() as session:
+            session.get.side_effect = requests.exceptions.ConnectionError("Mocked Connection Error")
+            TimeSeriesFinanceClient("IBM", "mock_api_key")
