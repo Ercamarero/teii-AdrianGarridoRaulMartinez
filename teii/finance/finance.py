@@ -61,8 +61,10 @@ class FinanceClient(ABC):
 
         # Query Finance API
         self._logger.info("Finance API access...")
-        response = self._query_api()
-
+        try:
+            response = self._query_api()
+        except requests.ConnectionError:
+            raise FinanceClientAPIError("Failed to connect to the API")
         # Process query response
         self._logger.info("Finance API query response processing...")
         self._process_query_response(response)
