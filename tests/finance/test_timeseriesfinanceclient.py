@@ -5,6 +5,8 @@ import datetime as dt
 
 import pytest
 from pandas.testing import assert_series_equal
+from unittest.mock import patch
+import resquests
 
 from teii.finance import (FinanceClientInvalidAPIKey, FinanceClientInvalidData,
                           TimeSeriesFinanceClient)
@@ -19,6 +21,21 @@ def test_constructor_success(api_key_str,
 def test_constructor_failure_invalid_api_key():
     with pytest.raises(FinanceClientInvalidAPIKey):
         TimeSeriesFinanceClient("IBM")
+
+
+@patch('request.get')
+def test_constructor_unsuccessful_request(api_key_str, mock_get):
+    mock_get.side_effect = requests.exceptions.ConnectionError("Failed to connect")
+    with pytest.raises(FinanceClientAPIError):
+        TimeSeriesFinanceClient("IBM", api_key_str)
+
+
+@patch('timeseries.TimeSeriesFinanceClient._build_data_frame')
+def test_constructor_invalid_data(api_key_str, mock_build_data):
+
+    mock_build_data.side_effect = FinanceClientInvalidData("Invalid data for ticker NODATA")
+    with pytest.assertRaises(FinanceClientInvalidData):
+        TimeSeriesFinanceClient("NODATA", api_key_str)
 
 
 def test_constructor_env(mocked_requests, monkeypatch):

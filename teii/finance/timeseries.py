@@ -81,7 +81,7 @@ class TimeSeriesFinanceClient(FinanceClient):
             # Sort data
             self._data_frame = data_frame.sort_index(ascending=True)
         except Exception as e:
-            raise FinanceClientInvalidData("Invalid data") from e
+            raise FinanceClientInvalidData("Invalid data or data crashed during the process") from e
     """
     def _build_base_query_url_params(self) -> str:
         Genera la query de los datos que queremos tratar.
