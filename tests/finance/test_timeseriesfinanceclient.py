@@ -6,7 +6,7 @@ import datetime as dt
 import pytest
 from pandas.testing import assert_series_equal
 from unittest.mock import patch
-import resquests
+import requests
 
 from teii.finance import (FinanceClientInvalidAPIKey, FinanceClientInvalidData,
                           TimeSeriesFinanceClient)
