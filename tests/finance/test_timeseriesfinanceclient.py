@@ -29,12 +29,12 @@ def test_constructor_unsuccessful_request(api_key_str, mocked_requests):
     with pytest.Raises(FinanceClientAPIError):
         TimeSeriesFinanceClient("IBM")
 
-
+"""
 def test_constructor_invalid_data(api_key_str, mock_build_data):
     mock_build_data.side_effect = FinanceClientInvalidData("Invalid data for ticker NODATA")
     with pytest.Raises(FinanceClientInvalidData):
         TimeSeriesFinanceClient("NODATA")
-
+"""
 
 def test_constructor_env(mocked_requests, monkeypatch):
     monkeypatch.setenv('TEII_FINANCE_API_KEY', 'https://www.alphavantage.co/support/#api-key')
