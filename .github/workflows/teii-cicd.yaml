@@ -21,7 +21,7 @@ jobs:
 
     strategy:
       matrix:
-        python-version: [38, 39, 310]
+        python-version: [3.8, 3.9, 3.10]
         os: [ubuntu-20.04, ubuntu-22.04]
 
     # Steps represent a sequence of tasks that will be executed as part of the job
@@ -34,7 +34,7 @@ jobs:
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v2
       with:
-        python-version: py${{ matrix.python-version }}
+        python-version: ${{ matrix.python-version }}
 
     # Installs tox
     - name: Install tox
@@ -44,7 +44,7 @@ jobs:
     # Runs tox
     - name: Run flake8, mypy and pytest with tox
       run: |
-        tox -e py
+        tox -e py${{ matrix.python-version | replace(".", "") }}
 
   build:
     # The type of runners that the job will run on
