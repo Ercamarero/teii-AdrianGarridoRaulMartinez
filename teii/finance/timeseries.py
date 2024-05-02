@@ -1,13 +1,14 @@
+import requests
 """ Time Series Finance Client classes """
 
 
 import datetime as dt
 import logging
 from typing import Optional, Union
-import requests
+
 import pandas as pd
 
-from teii.finance import FinanceClient, FinanceClientInvalidData, FinanceClientAPIError
+from teii.finance import FinanceClient, FinanceClientInvalidData
 
 """
 TimeSeriesFinanceClient
@@ -47,10 +48,6 @@ class TimeSeriesFinanceClient(FinanceClient):
         """ TimeSeriesFinanceClient constructor. """
 
         super().__init__(ticker, api_key, logging_level)
-        try:
-            self._build_data_frame()
-        except requests.ConnectionError:
-            raise FinanceClientAPIError("Failed to connect to the API")
 
         self._build_data_frame()
     """
@@ -202,3 +199,5 @@ class TimeSeriesFinanceClient(FinanceClient):
             series = series.loc[from_date:to_date]   # type: ignore
 
         return series
+
+
