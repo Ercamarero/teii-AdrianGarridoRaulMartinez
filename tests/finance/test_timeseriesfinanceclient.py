@@ -5,7 +5,7 @@ import datetime as dt
 import requests
 import pytest
 from pandas.testing import assert_series_equal
-
+from unittest.mock import patch
 from teii.finance import (FinanceClientInvalidAPIKey, FinanceClientInvalidData,
                           TimeSeriesFinanceClient, FinanceClientAPIError)
 
@@ -89,12 +89,6 @@ def test_weekly_volume_dates(api_key_str, mocked_requests):
 
 
 def test_constructor_unsuccessful_request():
-    with pytest.raises(FinanceClientAPIError):
-        with requests.Session() as session:
-           session.get.side_effect = requests.exceptions.ConnectionError("Mocked Connection Error")
-            try:
-                session.get()
-                TimeSeriesFinanceClient("AAPL", "api_key")
-                assert False, "Expected FinanceClientAPIError to be raised"
-            except FinanceClientAPIError:
-                pass 
+    with patch('requests.get', side_effect=requests.exceptions.ConnectionError):
+        with pytest.raises(FinanceClientAPIError):
+            TimeSeriesFinanceClient("AAPL", "dummy_api_key")
