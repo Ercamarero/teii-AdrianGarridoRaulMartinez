@@ -25,7 +25,6 @@ def test_constructor_env(mocked_requests, monkeypatch):
     monkeypatch.setenv('TEII_FINANCE_API_KEY', 'https://www.alphavantage.co/support/#api-key')
     # Llama al constructor de TimeSeriesFinanceClient
     TimeSeriesFinanceClient("AAPL")
-
     # Asegura que el cliente se ha creado correctamente
 
 
