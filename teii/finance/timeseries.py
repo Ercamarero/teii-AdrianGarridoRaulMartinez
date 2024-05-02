@@ -9,7 +9,19 @@ import pandas as pd
 
 from teii.finance import FinanceClient, FinanceClientInvalidData
 
+"""
+TimeSeriesFinanceClient
+    Clase que hereda de FinanceClient
+Parametres
+----------
+     _data_field2name_type : diccionario
+        para la gestion de los datos leidos
 
+
+Returns
+------
+    TimeSeriesFinanceClient
+"""
 class TimeSeriesFinanceClient(FinanceClient):
     """ Wrapper around the AlphaVantage API for Time Series Weekly Adjusted.
 
@@ -35,31 +47,47 @@ class TimeSeriesFinanceClient(FinanceClient):
         super().__init__(ticker, api_key, logging_level)
 
         self._build_data_frame()
-
+    """
+    def _build_data_frame(self) -> None:
+        Genera el Data frame y format data 
+    Raises
+    ------
+        FinanceCLientInvalidData 
+            datos inexistentes o innacesibles. 
+    """
     def _build_data_frame(self) -> None:
         """ Build Panda's DataFrame and format data. """
 
         # TODO
         #   Comprueba que no se produce ningún error y genera excepción
         #   'FinanceClientInvalidData' en caso contrario
+        try:
+            # Build Panda's data frame
+            data_frame = pd.DataFrame.from_dict(self._json_data, orient='index', dtype='float')
 
-        # Build Panda's data frame
-        data_frame = pd.DataFrame.from_dict(self._json_data, orient='index', dtype='float')
-
-        # Rename data fields
-        data_frame = data_frame.rename(columns={key: name_type[0]
+            # Rename data fields
+            data_frame = data_frame.rename(columns={key: name_type[0]
                                                 for key, name_type in self._data_field2name_type.items()})
 
-        # Set data field types
-        data_frame = data_frame.astype(dtype={name_type[0]: name_type[1]
+            # Set data field types
+            data_frame = data_frame.astype(dtype={name_type[0]: name_type[1]
                                               for key, name_type in self._data_field2name_type.items()})
 
-        # Set index type
-        data_frame.index = data_frame.index.astype("datetime64[ns]")
+            # Set index type
+            data_frame.index = data_frame.index.astype("datetime64[ns]")
 
-        # Sort data
-        self._data_frame = data_frame.sort_index(ascending=True)
-
+            # Sort data
+            self._data_frame = data_frame.sort_index(ascending=True)
+        except Exception as e:
+            raise FinanceClientInvalidData("Invalid data") from e 
+    """
+    def _build_base_query_url_params(self) -> str:
+        Genera la query de los datos que queremos tratar. 
+    Returns
+    -------
+     String 
+        Query generada. 
+    """
     def _build_base_query_url_params(self) -> str:
         """ Return base query URL parameters.
 
@@ -71,12 +99,28 @@ class TimeSeriesFinanceClient(FinanceClient):
 
         return f"function=TIME_SERIES_WEEKLY_ADJUSTED&symbol={self._ticker}&outputsize=full&apikey={self._api_key}"
 
+    """
+    def _build_query_data_key(cls) -> str:
+        String para la gestion de la periodicidad del ajuste de los datos. 
+    Returns
+    -------
+    String 
+        String con la periodicidad deseada. 
+    """
     @classmethod
     def _build_query_data_key(cls) -> str:
         """ Return data query key. """
 
         return "Weekly Adjusted Time Series"
 
+    """
+    def _validate_query_data(self) -> None:
+        Validador de la presencia de un json con los datos que deseamos. 
+    Raises
+    ------
+        FinanceClientInvalidData
+            los datos no se pueden localizar o usar. 
+    """
     def _validate_query_data(self) -> None:
         """ Validate query data. """
 
@@ -87,6 +131,20 @@ class TimeSeriesFinanceClient(FinanceClient):
         else:
             self._logger.info(f"Metadata key '2. Symbol' = '{self._ticker}' found")
 
+
+    """
+    def weekly_price(self,from_date: Optional[dt.date] = None,to_date: Optional[dt.date] = None) -> pd.Series:
+        Genera una serie con la relacion precio semana del ticker deseado. 
+    Raises
+    ------
+        FinanceClientParamError
+            En caso de fecha invalida devolver un error.
+    Returns 
+    -------
+        Serie Pandas 
+            Serie de precios indexados por semanas. 
+     
+    """
     def weekly_price(self,
                      from_date: Optional[dt.date] = None,
                      to_date: Optional[dt.date] = None) -> pd.Series:
@@ -105,7 +163,20 @@ class TimeSeriesFinanceClient(FinanceClient):
             series = series.loc[from_date:to_date]   # type: ignore
 
         return series
+    
 
+    """
+     def weekly_volume(self,from_date: Optional[dt.date] = None, to_date: Optional[dt.date] = None) -> pd.Series:
+        Serie con el volumen semanal de ventas. 
+        Raises
+        ------
+        FinanceClientParamError
+            En caso de fecha incorrecta 
+        Returns 
+        -------
+        Serie Pandas 
+            Serie que contiene el volumen de ventas indexado por las semanas de un tramo. 
+    """
     def weekly_volume(self,
                       from_date: Optional[dt.date] = None,
                       to_date: Optional[dt.date] = None) -> pd.Series:
