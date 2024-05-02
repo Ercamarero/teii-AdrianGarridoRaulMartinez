@@ -37,6 +37,25 @@ def mocked_requests():
 
     teii.finance.finance.requests = mocked_requests
 
+def mocked_requests_get(*args, **kwargs):
+    """Simulate requests.get for test purposes."""
+    class MockResponse:
+        def __init__(self, json_data, status_code):
+            self.json_data = json_data
+            self.status_code = status_code
+
+        def json(self):
+            return self.json_data
+
+    if args[0] == "https://api.example.com/data?ticker=NODATA":
+        return MockResponse({
+            "Meta Data": {
+                "2. Symbol": "NODATA",
+                "4. Last Refreshed": "2024-04-25"
+            },
+            "Weekly Adjusted Time Series": {}  # No weekly data available
+        }, 200)
+    return MockResponse(None, 404)
 
 @fixture(scope='package')
 def pandas_series_IBM_prices():

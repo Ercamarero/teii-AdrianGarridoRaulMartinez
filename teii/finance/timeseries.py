@@ -59,29 +59,28 @@ class TimeSeriesFinanceClient(FinanceClient):
     """
     def _build_data_frame(self) -> None:
         """ Build Panda's DataFrame and format data. """
+    try:
+        if not self._json_data:
+            raise FinanceClientInvalidData("No data available")
 
-        # TODO
-        #   Comprueba que no se produce ningún error y genera excepción
-        #   'FinanceClientInvalidData' en caso contrario
-        try:
-            # Build Panda's data frame
-            data_frame = pd.DataFrame.from_dict(self._json_data, orient='index', dtype='float')
+        data_frame = pd.DataFrame.from_dict(self._json_data, orient='index')
 
-            # Rename data fields
-            data_frame = data_frame.rename(columns={key: name_type[0]
-                                           for key, name_type in self._data_field2name_type.items()})
+        # Comprobar que todos los campos requeridos están en el DataFrame
+        required_fields = set(self._data_field2name_type.keys())
+        missing_fields = required_fields - set(data_frame.columns)
+        if missing_fields:
+            raise FinanceClientInvalidData(f"Missing required data fields: {missing_fields}")
 
-            # Set data field types
-            data_frame = data_frame.astype(dtype={name_type[0]: name_type[1]
-                                           for key, name_type in self._data_field2name_type.items()})
+        # Renombrar los campos de datos y configurar los tipos de datos
+        data_frame = data_frame.rename(columns={key: name_type[0] for key, name_type in self._data_field2name_type.items()})
+        data_frame = data_frame.astype({name_type[0]: name_type[1] for key, name_type in self._data_field2name_type.items()})
 
-            # Set index type
-            data_frame.index = data_frame.index.astype("datetime64[ns]")
+        # Configurar el tipo de índice y ordenar los datos
+        data_frame.index = pd.to_datetime(data_frame.index)
+        self._data_frame = data_frame.sort_index(ascending=True)
+    except Exception as e:
+        raise FinanceClientInvalidData("Invalid data format or error in data processing") from e
 
-            # Sort data
-            self._data_frame = data_frame.sort_index(ascending=True)
-        except Exception as e:
-            raise FinanceClientInvalidData("Invalid data") from e
     """
     def _build_base_query_url_params(self) -> str:
         Genera la query de los datos que queremos tratar.

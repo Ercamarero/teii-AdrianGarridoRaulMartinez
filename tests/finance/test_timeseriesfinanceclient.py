@@ -4,6 +4,7 @@
 import datetime as dt
 
 import pytest
+from unittest.mock import patch
 from pandas.testing import assert_series_equal
 
 from teii.finance import (FinanceClientInvalidAPIKey, FinanceClientInvalidData,
@@ -85,3 +86,9 @@ def test_weekly_volume_dates(api_key_str, mocked_requests):
     ps = fc.weekly_volume(dt.date(year=2021, month=1, day=1),
                           dt.date(year=2023, month=12, day=31))
     assert ps is not None
+
+
+def test_constructor_invalid_data(mocked_requests_get):
+    with patch('requests.get', side_effect=mocked_requests_get):
+        with pytest.raises(FinanceClientInvalidData):
+            client = TimeSeriesFinanceClient("NODATA", "dummy_api_key")
