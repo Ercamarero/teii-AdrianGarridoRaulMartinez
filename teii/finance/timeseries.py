@@ -8,7 +8,7 @@ from typing import Optional, Union
 
 import pandas as pd
 
-from teii.finance import FinanceClient, FinanceClientInvalidData
+from teii.finance import FinanceClient, FinanceClientInvalidData, FinanceClientAPIError
 
 """
 TimeSeriesFinanceClient
