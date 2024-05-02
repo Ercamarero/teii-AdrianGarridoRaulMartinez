@@ -29,10 +29,10 @@ class TimeSeriesFinanceClient(FinanceClient):
 
     def __init__(self, ticker: str,
                  api_key: Optional[str] = None,
-                 logging_level: Union[int, str] = logging.WARNING) -> None:
+                 logging_level: Union[int, str] = logging.INFO) -> None:
         """ TimeSeriesFinanceClient constructor. """
 
-        super().__init__(ticker, api_key, logging_level)
+        super().__init__(ticker, api_key, logging_level, 'timeseries.log')
 
         self._build_data_frame()
 
@@ -131,26 +131,30 @@ class TimeSeriesFinanceClient(FinanceClient):
 
     def highest_weekly_variation(self,
                                  from_date: Optional[dt.date] = None,
-                                 to_date: Optional[dt.date] = None) -> Union[dt.date, float, float, float]:
-        """ Return highest weekly variation from 'from_date' to 'to_date'. """
+                                 to_date: Optional[dt.date] = None) -> 'tuple[dt.date, float, float, float]':
+        """Return highest weekly variation from 'from_date' to 'to_date'."""
         assert self._data_frame is not None
 
-        # Filtrar el DataFrame según las fechas proporcionadas
+        # Convertir from_date y to_date a pd.Timestamp
+        if from_date is not None:
+            from_date = pd.Timestamp(from_date)
+        if to_date is not None:
+            to_date = pd.Timestamp(to_date)
+
+        # Utilizar las fechas convertidas para filtrar el DataFrame
         if from_date is not None and to_date is not None:
-            data = self._data_frame.loc[from_date:to_date]
+            # Asegurarse de que las fechas son inclusivas al final del período
+            to_date = to_date + pd.Timedelta(days=1) - pd.Timedelta(seconds=1)
+            df = self._data_frame.loc[from_date:to_date]
         else:
-            data = self._data_frame
+            df = self._data_frame
 
-        # Calcular la variación semanal para cada fila del DataFrame
-        data['weekly_variation'] = data['high'] - data['low']
+        # Calcular la variación semanal entre precios altos y bajos
+        series_high_low = df['high'] - df['low']
+        max_index = series_high_low.idxmax()
 
-        # Encontrar la fila con la mayor variación semanal
-        max_variation_row = data.loc[data['weekly_variation'].idxmax()]
+        # Asegurarse de que el índice es un Timestamp y extraer la fecha
+        if not isinstance(max_index, pd.Timestamp):
+            raise ValueError("Index must be a Timestamp")
 
-        # Extraer los valores relevantes de la fila con la mayor variación
-        fecha = max_variation_row.name.date()
-        high = max_variation_row['high']
-        low = max_variation_row['low']
-        weekly_variation = max_variation_row['weekly_variation']
-
-        return fecha, high, low, weekly_variation
+        return max_index.date(), df.loc[max_index, 'high'], df.loc[max_index, 'low'], series_high_low[max_index]
