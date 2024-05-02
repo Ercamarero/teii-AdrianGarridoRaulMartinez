@@ -23,7 +23,7 @@ def test_constructor_failure_invalid_api_key():
         TimeSeriesFinanceClient("IBM")
 
 
-@patch('request.get')
+
 def test_constructor_unsuccessful_request(api_key_str, mocked_requests):
     with pytest.raises(FinanceClientAPIError):
         TimeSeriesFinanceClient("IBM")
@@ -32,7 +32,7 @@ def test_constructor_unsuccessful_request(api_key_str, mocked_requests):
 def test_constructor_invalid_data(api_key_str, mock_build_data):
     mock_build_data.side_effect = FinanceClientInvalidData("Invalid data for ticker NODATA")
     with pytest.Raises(FinanceClientInvalidData):
-        TimeSeriesFinanceClient("NODATA", api_key_str)
+        TimeSeriesFinanceClient("NODATA")
 
 
 def test_constructor_env(mocked_requests, monkeypatch):
