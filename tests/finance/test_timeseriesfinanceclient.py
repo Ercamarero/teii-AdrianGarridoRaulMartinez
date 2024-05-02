@@ -6,6 +6,7 @@ import requests
 import pytest
 from pandas.testing import assert_series_equal
 from unittest.mock import patch
+from requests.exceptions import ConnectionError
 from teii.finance import (FinanceClientInvalidAPIKey, FinanceClientInvalidData,
                           TimeSeriesFinanceClient, FinanceClientAPIError)
 
@@ -89,6 +90,6 @@ def test_weekly_volume_dates(api_key_str, mocked_requests):
 
 
 def test_constructor_unsuccessful_request():
-    with patch('requests.get', side_effect=requests.exceptions.ConnectionError):
+    with patch('teii.finance.timeseries.requests.get', side_effect=ConnectionError):
         with pytest.raises(FinanceClientAPIError):
             TimeSeriesFinanceClient("AAPL", "dummy_api_key")
