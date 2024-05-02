@@ -7,7 +7,8 @@ import pytest
 from pandas.testing import assert_series_equal
 
 from teii.finance import (FinanceClientInvalidAPIKey, FinanceClientInvalidData,
-                          TimeSeriesFinanceClient)
+                          TimeSeriesFinanceClient, FinanceClientAPIError)
+
 
 
 def test_constructor_success(api_key_str,
