@@ -92,4 +92,8 @@ def test_constructor_unsuccessful_request():
     with pytest.raises(FinanceClientAPIError):
         with requests.Session() as session:
             session.get.side_effect = requests.exceptions.ConnectionError("Mocked Connection Error")
-            TimeSeriesFinanceClient("IBM", "mock_api_key")
+            try:
+                TimeSeriesFinanceClient("AAPL", "mock_api_key")
+                assert False, "Expected FinanceClientAPIError to be raised"
+            except FinanceClientAPIError:
+                pass
