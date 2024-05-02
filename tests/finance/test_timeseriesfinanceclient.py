@@ -91,9 +91,10 @@ def test_weekly_volume_dates(api_key_str, mocked_requests):
 def test_constructor_unsuccessful_request():
     with pytest.raises(FinanceClientAPIError):
         with requests.Session() as session:
-            session.get.side_effect = requests.exceptions.ConnectionError("Mocked Connection Error")
+           session.get.side_effect = requests.exceptions.ConnectionError("Mocked Connection Error")
             try:
-                TimeSeriesFinanceClient("AAPL", "mock_api_key")
+                session.get()
+                TimeSeriesFinanceClient("AAPL", "api_key")
                 assert False, "Expected FinanceClientAPIError to be raised"
             except FinanceClientAPIError:
-                pass
+                pass 
