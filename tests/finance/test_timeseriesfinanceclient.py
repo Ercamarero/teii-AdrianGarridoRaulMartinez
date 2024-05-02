@@ -4,8 +4,8 @@
 import datetime as dt
 
 import pytest
+import resquests
 from pandas.testing import assert_series_equal
-
 from teii.finance import (FinanceClientInvalidAPIKey, FinanceClientInvalidData,
                           TimeSeriesFinanceClient, FinanceClientAPIError)
 
