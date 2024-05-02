@@ -47,11 +47,11 @@ class TimeSeriesFinanceClient(FinanceClient):
                  logging_level: Union[int, str] = logging.WARNING) -> None:
         """ TimeSeriesFinanceClient constructor. """
         try:
-            response = requests.get("https://api.example.com/data", params={"apikey": api_key})
+            requests.get("https://api.example.com/data", params={"apikey": api_key})
             # Procesar la respuesta si es necesario
         except requests.exceptions.ConnectionError:
             raise FinanceClientAPIError("Failed to connect to the API")
-    
+            
         super().__init__(ticker, api_key, logging_level)
 
         self._build_data_frame()
