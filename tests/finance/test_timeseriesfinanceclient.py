@@ -25,7 +25,8 @@ def test_constructor_failure_invalid_api_key():
 
 
 def test_constructor_unsuccessful_request(api_key_str, mocked_requests):
-    with pytest.raises(FinanceClientAPIError):
+    requests.exceptions.ConnectionError('Failed To connnect')
+    with pytest.Raises(FinanceClientAPIError):
         TimeSeriesFinanceClient("IBM")
 
 
