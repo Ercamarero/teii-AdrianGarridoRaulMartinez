@@ -22,7 +22,7 @@ class FinanceClientAPIError(FinanceClientError):
     """
     Finance API access failure.
     """
-
+    
     pass
 
 
