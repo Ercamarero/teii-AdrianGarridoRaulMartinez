@@ -80,7 +80,7 @@ class TimeSeriesFinanceClient(FinanceClient):
 
             # Sort data
             self._data_frame = data_frame.sort_index(ascending=True)
-        except Exception as e:
+        except Exception:
             raise FinanceClientInvalidData("Invalid data or data crashed during the process")
     """
     def _build_base_query_url_params(self) -> str:
@@ -198,7 +198,9 @@ class TimeSeriesFinanceClient(FinanceClient):
         return series
 
     """
-    def yearly_dividends(self, from_year:Optional [dt.date] = None, to_year: Optional[dt.date] = None) -> pd.Series:
+    def yearly_dividends(self, 
+                         from_year:Optional [dt.date] = None, 
+                         to_year: Optional[dt.date] = None) -> pd.Series:
         assert self._data_frame is not None
         series = self._data_frame['dividends']
 
@@ -208,4 +210,4 @@ class TimeSeriesFinanceClient(FinanceClient):
         if from_year is not None and to_year is not None:
             series = series.loc[from_year:to_year] 
         return series
-    """
+   """
