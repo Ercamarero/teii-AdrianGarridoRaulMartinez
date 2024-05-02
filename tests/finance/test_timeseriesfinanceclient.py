@@ -26,7 +26,7 @@ def test_constructor_failure_invalid_api_key():
 @patch('request.get')
 def test_constructor_unsuccessful_request(api_key_str, mocked_requests):
     with pytest.raises(FinanceClientAPIError):
-        TimeSeriesFinanceClient("IBM", api_key_str)
+        TimeSeriesFinanceClient("IBM")
 
 
 def test_constructor_invalid_data(api_key_str, mock_build_data):
