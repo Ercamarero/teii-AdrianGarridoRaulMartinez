@@ -1,4 +1,3 @@
-import requests
 """ Time Series Finance Client classes """
 
 
@@ -199,5 +198,3 @@ class TimeSeriesFinanceClient(FinanceClient):
             series = series.loc[from_date:to_date]   # type: ignore
 
         return series
-
-
