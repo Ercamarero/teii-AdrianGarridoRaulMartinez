@@ -10,6 +10,7 @@ from pytest import fixture
 
 import teii.finance.finance
 
+
 @fixture(scope='session')
 def api_key_str():
     return ("nokey")
@@ -24,6 +25,17 @@ def mocked_requests():
             json_filename = 'TIME_SERIES_WEEKLY_ADJUSTED.IBM.json'
         elif 'AAPL' in url:
             json_filename = 'TIME_SERIES_WEEKLY_ADJUSTED.AAPL.json'
+        elif 'NODATA' in url:
+            json_data = {
+                "Meta Data": {
+                    "1. Information": "Weekly Adjusted Time Series",
+                    "2. Symbol": "NODATA",
+                    "3. Last Refreshed": "2024-04-01"
+                },
+                "Weekly Adjusted Time Series": {}  # Sin datos semanales
+            }
+            response.json.return_value = json_data
+            return response
         else:
             raise ValueError('Ticker no soportado')
         with resources.open_text('teii.finance.data', json_filename) as json_file:
