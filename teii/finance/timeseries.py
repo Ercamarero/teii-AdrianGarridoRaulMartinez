@@ -212,8 +212,8 @@ class TimeSeriesFinanceClient(FinanceClient):
 
         # Filtrar según los años proporcionados, si es necesario
         if from_year is not None:
-            annual_dividends = annual_dividends[annual_dividends.index.year >= from_year]
+            annual_dividends = annual_dividends[pd.to_datetime(annual_dividends.index).year >= from_year]
         if to_year is not None:
-            annual_dividends = annual_dividends[annual_dividends.index.year <= to_year]
+            annual_dividends = annual_dividends[pd.to_datetime(annual_dividends.index).year <= to_year]
 
         return annual_dividends
