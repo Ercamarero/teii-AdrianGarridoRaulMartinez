@@ -4,11 +4,17 @@
 import datetime as dt
 
 import pytest
+import pandas as pd
 from pandas.testing import assert_series_equal
 from unittest.mock import patch
 from requests.exceptions import ConnectionError
+import os
 from teii.finance import (FinanceClientInvalidAPIKey, FinanceClientInvalidData,
                           TimeSeriesFinanceClient, FinanceClientAPIError, FinanceClient)
+# Donde nos encontramos
+current_dir = os.path.dirname(os.path.abspath(__file__))
+# Donde queremos mirar para acceder a los datos
+directorio_base = os.path.dirname(os.path.dirname(current_dir))
 
 
 def test_constructor_success(api_key_str,
@@ -119,3 +125,37 @@ def test_constructor_unsuccessful_request():
 def test_constructor_invalid_data(mocked_requests):
     with pytest.raises(FinanceClientInvalidData):
         TimeSeriesFinanceClient("NODATA", "dummy_api_key")
+
+
+# Version en la que cojemos los datos anuales del tiron
+"""
+    No nos dimos cuenta que habia un archivo con los años agrupados previamente y este hace lo mismo.
+"""
+
+
+def test_yearly_dividends_unfiltered(api_key_str):
+    data_path = os.path.join(directorio_base, 'teii', 'finance', 'data',
+                             'TIME_SERIES_WEEKLY_ADJUSTED.IBM.dividend.unfiltered.csv')
+    ex = pd.read_csv(data_path, index_col='date', parse_dates=True)
+    ex['year'] = ex.index.year
+    ex.set_index(ex.index, inplace=True)
+    ex = ex.groupby('year')['dividend'].sum()
+
+    cliente = TimeSeriesFinanceClient("IBM", api_key_str)
+    ac = cliente.yearly_dividends()
+    ac.index = ac.index.year
+
+    pd.testing.assert_series_equal(ac, ex, check_dtype=False, check_names=False)
+
+
+def test_yearly_dividends_filtered(api_key_str):  # Define esta variable correctamente
+    data_path = os.path.join(directorio_base, 'teii', 'finance', 'data',
+                             'TIME_SERIES_WEEKLY_ADJUSTED.IBM.yearly_dividend.filtered.csv')
+    ex = pd.read_csv(data_path, index_col='date', parse_dates=True)
+    ex = ex['dividend']
+    ex.index = ex.index.year
+
+    cliente = TimeSeriesFinanceClient("IBM", api_key_str)
+    ac = cliente.yearly_dividends(2010, 2023)
+    ac.index = ac.index.year
+    pd.testing.assert_series_equal(ex, ac, check_dtype=False, check_names=False)
