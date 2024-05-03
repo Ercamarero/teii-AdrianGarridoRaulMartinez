@@ -114,3 +114,8 @@ def test_constructor_unsuccessful_request():
             MockFinanceClient("IBM", "dummy_api_key")
         # Verifica que el mensaje de la excepción es el esperado
         assert "Unsuccessful API access" in str(exc_info.value)
+
+
+def test_constructor_invalid_data(mocked_requests):
+    with pytest.raises(FinanceClientInvalidData):
+        TimeSeriesFinanceClient("NODATA", "dummy_api_key")
