@@ -198,14 +198,14 @@ class TimeSeriesFinanceClient(FinanceClient):
             series = series.loc[from_date:to_date]   # type: ignore
 
         return series
-    
+
     def yearly_dividends(self,
                          from_year: Optional[int] = None,
                          to_year: Optional[int] = None) -> pd.Series:
-        
+
         if self._data_frame is None:
             raise FinanceClientInvalidData("Data frame not initialized")
-    
+
         # Asegurarte de que solo se está trabajando con la columna de dividendos
         dividends = self._data_frame['dividend']  # Asumiendo que 'dividend' es la columna de interés
         annual_dividends = dividends.resample('Y').sum()  # Esto debe ser una Series si 'dividend' es una Serie
