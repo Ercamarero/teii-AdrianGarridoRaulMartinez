@@ -10,7 +10,6 @@ from pytest import fixture
 
 import teii.finance.finance
 
-
 @fixture(scope='session')
 def api_key_str():
     return ("nokey")
