@@ -2,15 +2,18 @@
 
 
 import datetime as dt
-
-import pytest
-import pandas as pd
-from pandas.testing import assert_series_equal
-from unittest.mock import patch
-from requests.exceptions import ConnectionError
 import os
-from teii.finance import (FinanceClientInvalidAPIKey, FinanceClientInvalidData,
-                          TimeSeriesFinanceClient, FinanceClientAPIError, FinanceClient)
+from unittest.mock import patch
+
+import pandas as pd
+import pytest
+from pandas.testing import assert_series_equal
+from requests.exceptions import ConnectionError
+
+from teii.finance import (FinanceClient, FinanceClientAPIError,
+                          FinanceClientInvalidAPIKey, FinanceClientInvalidData,
+                          TimeSeriesFinanceClient)
+
 # Donde nos encontramos
 current_dir = os.path.dirname(os.path.abspath(__file__))
 # Donde queremos mirar para acceder a los datos
@@ -159,3 +162,24 @@ def test_yearly_dividends_filtered(api_key_str):  # Define esta variable correct
     ac = cliente.yearly_dividends(2010, 2023)
     ac.index = ac.index.year
     pd.testing.assert_series_equal(ex, ac, check_dtype=False, check_names=False)
+
+
+def test_highest_weekly_variation_no_dates(api_key_str, mocked_requests):
+    fc = TimeSeriesFinanceClient("IBM", api_key_str)
+    result = fc.highest_weekly_variation()
+    expected_result = (dt.date.fromisoformat('2024-01-26'), 196.9, 172.4, 24.5)
+    assert result == expected_result
+
+
+def test_highest_weekly_variation_2000_to_2010(api_key_str, mocked_requests):
+    fc = TimeSeriesFinanceClient("IBM", api_key_str)
+    result = fc.highest_weekly_variation(dt.date(2000, 1, 1), dt.date(2010, 12, 31))
+    expected_result = (dt.date.fromisoformat('2000-10-20'), 113.87, 90.25, 23.620000000000005)
+    assert result == expected_result
+
+
+def test_highest_weekly_variation_2011_to_2023(api_key_str, mocked_requests):
+    fc = TimeSeriesFinanceClient("IBM", api_key_str)
+    result = fc.highest_weekly_variation(dt.date(2011, 1, 1), dt.date(2023, 12, 31))
+    expected_result = (dt.date.fromisoformat('2020-03-13'), 124.88, 100.81, 24.069999999999993)
+    assert result == expected_result
