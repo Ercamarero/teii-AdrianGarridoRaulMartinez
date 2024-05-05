@@ -58,7 +58,7 @@ def main():
         # Genera una serie de Pandas con precio de cierre semanal
         pd_series = tf_client.weekly_price(from_date='2023-01-01', to_date='2023-12-31')
 
-        logger.info(pd_series)
+        # logger.info(pd_series)
 
         # Dibuja una gráfica a partir de la serie de Pandas
         plot(pd_series, ticker, logger)

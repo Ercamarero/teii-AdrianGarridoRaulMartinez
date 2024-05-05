@@ -43,10 +43,14 @@ class TimeSeriesFinanceClient(FinanceClient):
 
     def __init__(self, ticker: str,
                  api_key: Optional[str] = None,
-                 logging_level: Union[int, str] = logging.WARNING) -> None:
+                 logging_level: Union[int, str] = logging.INFO) -> None:
         """ TimeSeriesFinanceClient constructor. """
 
         super().__init__(ticker, api_key, logging_level)
+        # Cambia 'nombre_del_archivo.log' al nombre que desees
+        file_handler = logging.FileHandler('timeseries.log')
+        file_handler.setLevel(logging.DEBUG)
+        self._logger.addHandler(file_handler)
 
         self._build_data_frame()
     """
@@ -81,7 +85,9 @@ class TimeSeriesFinanceClient(FinanceClient):
 
             # Sort data
             self._data_frame = data_frame.sort_index(ascending=True)
+            self._logger.info("DataFrame successfully built.")
         except Exception as e:
+            self._logger.error("Error building DataFrame.", exc_info=True)
             raise FinanceClientInvalidData("Invalid data") from e
     """
     def _build_base_query_url_params(self) -> str:
@@ -131,6 +137,7 @@ class TimeSeriesFinanceClient(FinanceClient):
 
         try:
             assert self._json_metadata["2. Symbol"] == self._ticker
+            self._logger.info(f"Metadata key '2. Symbol' = '{self._ticker}' found")
         except Exception as e:
             raise FinanceClientInvalidData("Metadata field '2. Symbol' not found") from e
         else:
@@ -162,12 +169,14 @@ class TimeSeriesFinanceClient(FinanceClient):
         #   Comprueba que from_date <= to_date y genera excepción
         #   'FinanceClientParamError' en caso de error
         if isinstance(to_date, dt.date) and isinstance(from_date, dt.date) and to_date <= from_date:
+            self._logger.error("to_date cannot be less than from_date.")
             raise FinanceClientInvalidData("to_date cannot be less than from_date")
 
         # FIXME: type hint error
         if from_date is not None and to_date is not None:
             series = series.loc[from_date:to_date]   # type: ignore
 
+        self._logger.info("Weekly price series successfully generated.")
         return series
 
     """
@@ -196,12 +205,14 @@ class TimeSeriesFinanceClient(FinanceClient):
         #   Comprueba que from_date <= to_date y genera excepción
         #   'FinanceClientParamError' en caso de error
         if isinstance(to_date, dt.date) and isinstance(from_date, dt.date) and to_date <= from_date:
+            self._logger.error("to_date cannot be less than from_date.")
             raise FinanceClientInvalidData("to_date cannot be less than from_date")
 
         # FIXME: type hint error
         if from_date is not None and to_date is not None:
             series = series.loc[from_date:to_date]   # type: ignore
 
+        self._logger.info("Weekly volume series successfully generated.")
         return series
 
     def yearly_dividends(self,
@@ -209,6 +220,7 @@ class TimeSeriesFinanceClient(FinanceClient):
                          to_year: Optional[int] = None) -> pd.Series:
 
         if self._data_frame is None:
+            self._logger.info("Yearly dividends series successfully generated.")
             raise FinanceClientInvalidData("Data frame not initialized")
 
         # Asegurarte de que solo se está trabajando con la columna de dividendos
@@ -221,6 +233,7 @@ class TimeSeriesFinanceClient(FinanceClient):
         if to_year is not None:
             annual_dividends = annual_dividends[pd.to_datetime(annual_dividends.index).year <= to_year]
 
+        self._logger.info("Yearly dividends series successfully generated.")
         return annual_dividends
 
     def highest_weekly_variation(self,
@@ -243,6 +256,8 @@ class TimeSeriesFinanceClient(FinanceClient):
 
         # Asegurarse de que el índice es un Timestamp y extraer la fecha
         if not isinstance(max_index, pd.Timestamp):
+            self._logger.error("Index must be a Timestamp.")
             raise ValueError("Index must be a Timestamp")
 
+        self._logger.info("Highest weekly variation successfully calculated.")
         return max_index.date(), series_high[max_index], series_low[max_index], series_high_low[max_index]

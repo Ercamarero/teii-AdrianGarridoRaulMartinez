@@ -1,0 +1,2672 @@
+DataFrame successfully built.
+API key configuration
+Finance API access...
+Successful API access [URL: <Mock name='mock.url' id='130768170802624'>, status: 200]
+Finance API query response processing...
+Metadata and data fields found
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Finance API query data validation...
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+DataFrame successfully built.
+DataFrame successfully built.
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+Finance API access...
+Finance API access...
+Successful API access [URL: <Mock name='mock.url' id='130768170800368'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768170800368'>, status: 200]
+Finance API query response processing...
+Finance API query response processing...
+Metadata and data fields found
+Metadata and data fields found
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'AAPL', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'AAPL', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Data: '{"2024-04-15": {"1. open": "175.3600", "2. high": "176.6300", "3. low": "172.5000", "4. close": "172.6900", "5. adjusted close": "172.6900", "6. volume": "73531773", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. ...'
+Data: '{"2024-04-15": {"1. open": "175.3600", "2. high": "176.6300", "3. low": "172.5000", "4. close": "172.6900", "5. adjusted close": "172.6900", "6. volume": "73531773", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. ...'
+Finance API query data validation...
+Finance API query data validation...
+Metadata key '2. Symbol' = 'AAPL' found
+Metadata key '2. Symbol' = 'AAPL' found
+Metadata key '2. Symbol' = 'AAPL' found
+Metadata key '2. Symbol' = 'AAPL' found
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+API key configuration
+API key configuration
+API key configuration
+Finance API access...
+Finance API access...
+Finance API access...
+Successful API access [URL: <Mock name='mock.url' id='130768170922480'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768170922480'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768170922480'>, status: 200]
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+to_date cannot be less than from_date.
+to_date cannot be less than from_date.
+to_date cannot be less than from_date.
+to_date cannot be less than from_date.
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Successful API access [URL: <Mock name='mock.url' id='130768170925360'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768170925360'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768170925360'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768170925360'>, status: 200]
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+Weekly price series successfully generated.
+Weekly price series successfully generated.
+Weekly price series successfully generated.
+Weekly price series successfully generated.
+Weekly price series successfully generated.
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Successful API access [URL: <Mock name='mock.url' id='130768170925312'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768170925312'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768170925312'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768170925312'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768170925312'>, status: 200]
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+Weekly price series successfully generated.
+Weekly price series successfully generated.
+Weekly price series successfully generated.
+Weekly price series successfully generated.
+Weekly price series successfully generated.
+Weekly price series successfully generated.
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Successful API access [URL: <Mock name='mock.url' id='130768170924016'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768170924016'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768170924016'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768170924016'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768170924016'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768170924016'>, status: 200]
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+to_date cannot be less than from_date.
+to_date cannot be less than from_date.
+to_date cannot be less than from_date.
+to_date cannot be less than from_date.
+to_date cannot be less than from_date.
+to_date cannot be less than from_date.
+to_date cannot be less than from_date.
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Successful API access [URL: <Mock name='mock.url' id='130768168634400'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768168634400'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768168634400'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768168634400'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768168634400'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768168634400'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768168634400'>, status: 200]
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+Weekly volume series successfully generated.
+Weekly volume series successfully generated.
+Weekly volume series successfully generated.
+Weekly volume series successfully generated.
+Weekly volume series successfully generated.
+Weekly volume series successfully generated.
+Weekly volume series successfully generated.
+Weekly volume series successfully generated.
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Successful API access [URL: <Mock name='mock.url' id='130768168635888'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768168635888'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768168635888'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768168635888'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768168635888'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768168635888'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768168635888'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768168635888'>, status: 200]
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+Weekly volume series successfully generated.
+Weekly volume series successfully generated.
+Weekly volume series successfully generated.
+Weekly volume series successfully generated.
+Weekly volume series successfully generated.
+Weekly volume series successfully generated.
+Weekly volume series successfully generated.
+Weekly volume series successfully generated.
+Weekly volume series successfully generated.
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Successful API access [URL: <Mock name='mock.url' id='130768169316992'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768169316992'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768169316992'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768169316992'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768169316992'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768169316992'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768169316992'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768169316992'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768169316992'>, status: 200]
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata: '{'1. Information': 'Weekly Adjusted Time Series', '2. Symbol': 'NODATA', '3. Last Refreshed': '2024-04-01'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Time Series', '2. Symbol': 'NODATA', '3. Last Refreshed': '2024-04-01'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Time Series', '2. Symbol': 'NODATA', '3. Last Refreshed': '2024-04-01'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Time Series', '2. Symbol': 'NODATA', '3. Last Refreshed': '2024-04-01'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Time Series', '2. Symbol': 'NODATA', '3. Last Refreshed': '2024-04-01'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Time Series', '2. Symbol': 'NODATA', '3. Last Refreshed': '2024-04-01'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Time Series', '2. Symbol': 'NODATA', '3. Last Refreshed': '2024-04-01'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Time Series', '2. Symbol': 'NODATA', '3. Last Refreshed': '2024-04-01'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Time Series', '2. Symbol': 'NODATA', '3. Last Refreshed': '2024-04-01'}'
+Data: '{}...'
+Data: '{}...'
+Data: '{}...'
+Data: '{}...'
+Data: '{}...'
+Data: '{}...'
+Data: '{}...'
+Data: '{}...'
+Data: '{}...'
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Metadata key '2. Symbol' = 'NODATA' found
+Metadata key '2. Symbol' = 'NODATA' found
+Metadata key '2. Symbol' = 'NODATA' found
+Metadata key '2. Symbol' = 'NODATA' found
+Metadata key '2. Symbol' = 'NODATA' found
+Metadata key '2. Symbol' = 'NODATA' found
+Metadata key '2. Symbol' = 'NODATA' found
+Metadata key '2. Symbol' = 'NODATA' found
+Metadata key '2. Symbol' = 'NODATA' found
+Metadata key '2. Symbol' = 'NODATA' found
+Metadata key '2. Symbol' = 'NODATA' found
+Metadata key '2. Symbol' = 'NODATA' found
+Metadata key '2. Symbol' = 'NODATA' found
+Metadata key '2. Symbol' = 'NODATA' found
+Metadata key '2. Symbol' = 'NODATA' found
+Metadata key '2. Symbol' = 'NODATA' found
+Metadata key '2. Symbol' = 'NODATA' found
+Metadata key '2. Symbol' = 'NODATA' found
+Error building DataFrame.
+Traceback (most recent call last):
+  File "/home/marty/TEII/repo/finance/teii/finance/timeseries.py", line 80, in _build_data_frame
+    data_frame = data_frame.astype(dtype={name_type[0]: name_type[1]
+  File "/home/marty/.pyenv/versions/3.8.18/envs/venv-teii/lib/python3.8/site-packages/pandas/core/generic.py", line 6212, in astype
+    raise KeyError(
+KeyError: "Only a column name can be used for the key in a dtype mappings argument. 'open' not found in columns."
+Error building DataFrame.
+Traceback (most recent call last):
+  File "/home/marty/TEII/repo/finance/teii/finance/timeseries.py", line 80, in _build_data_frame
+    data_frame = data_frame.astype(dtype={name_type[0]: name_type[1]
+  File "/home/marty/.pyenv/versions/3.8.18/envs/venv-teii/lib/python3.8/site-packages/pandas/core/generic.py", line 6212, in astype
+    raise KeyError(
+KeyError: "Only a column name can be used for the key in a dtype mappings argument. 'open' not found in columns."
+Error building DataFrame.
+Traceback (most recent call last):
+  File "/home/marty/TEII/repo/finance/teii/finance/timeseries.py", line 80, in _build_data_frame
+    data_frame = data_frame.astype(dtype={name_type[0]: name_type[1]
+  File "/home/marty/.pyenv/versions/3.8.18/envs/venv-teii/lib/python3.8/site-packages/pandas/core/generic.py", line 6212, in astype
+    raise KeyError(
+KeyError: "Only a column name can be used for the key in a dtype mappings argument. 'open' not found in columns."
+Error building DataFrame.
+Traceback (most recent call last):
+  File "/home/marty/TEII/repo/finance/teii/finance/timeseries.py", line 80, in _build_data_frame
+    data_frame = data_frame.astype(dtype={name_type[0]: name_type[1]
+  File "/home/marty/.pyenv/versions/3.8.18/envs/venv-teii/lib/python3.8/site-packages/pandas/core/generic.py", line 6212, in astype
+    raise KeyError(
+KeyError: "Only a column name can be used for the key in a dtype mappings argument. 'open' not found in columns."
+Error building DataFrame.
+Traceback (most recent call last):
+  File "/home/marty/TEII/repo/finance/teii/finance/timeseries.py", line 80, in _build_data_frame
+    data_frame = data_frame.astype(dtype={name_type[0]: name_type[1]
+  File "/home/marty/.pyenv/versions/3.8.18/envs/venv-teii/lib/python3.8/site-packages/pandas/core/generic.py", line 6212, in astype
+    raise KeyError(
+KeyError: "Only a column name can be used for the key in a dtype mappings argument. 'open' not found in columns."
+Error building DataFrame.
+Traceback (most recent call last):
+  File "/home/marty/TEII/repo/finance/teii/finance/timeseries.py", line 80, in _build_data_frame
+    data_frame = data_frame.astype(dtype={name_type[0]: name_type[1]
+  File "/home/marty/.pyenv/versions/3.8.18/envs/venv-teii/lib/python3.8/site-packages/pandas/core/generic.py", line 6212, in astype
+    raise KeyError(
+KeyError: "Only a column name can be used for the key in a dtype mappings argument. 'open' not found in columns."
+Error building DataFrame.
+Traceback (most recent call last):
+  File "/home/marty/TEII/repo/finance/teii/finance/timeseries.py", line 80, in _build_data_frame
+    data_frame = data_frame.astype(dtype={name_type[0]: name_type[1]
+  File "/home/marty/.pyenv/versions/3.8.18/envs/venv-teii/lib/python3.8/site-packages/pandas/core/generic.py", line 6212, in astype
+    raise KeyError(
+KeyError: "Only a column name can be used for the key in a dtype mappings argument. 'open' not found in columns."
+Error building DataFrame.
+Traceback (most recent call last):
+  File "/home/marty/TEII/repo/finance/teii/finance/timeseries.py", line 80, in _build_data_frame
+    data_frame = data_frame.astype(dtype={name_type[0]: name_type[1]
+  File "/home/marty/.pyenv/versions/3.8.18/envs/venv-teii/lib/python3.8/site-packages/pandas/core/generic.py", line 6212, in astype
+    raise KeyError(
+KeyError: "Only a column name can be used for the key in a dtype mappings argument. 'open' not found in columns."
+Error building DataFrame.
+Traceback (most recent call last):
+  File "/home/marty/TEII/repo/finance/teii/finance/timeseries.py", line 80, in _build_data_frame
+    data_frame = data_frame.astype(dtype={name_type[0]: name_type[1]
+  File "/home/marty/.pyenv/versions/3.8.18/envs/venv-teii/lib/python3.8/site-packages/pandas/core/generic.py", line 6212, in astype
+    raise KeyError(
+KeyError: "Only a column name can be used for the key in a dtype mappings argument. 'open' not found in columns."
+Error building DataFrame.
+Traceback (most recent call last):
+  File "/home/marty/TEII/repo/finance/teii/finance/timeseries.py", line 80, in _build_data_frame
+    data_frame = data_frame.astype(dtype={name_type[0]: name_type[1]
+  File "/home/marty/.pyenv/versions/3.8.18/envs/venv-teii/lib/python3.8/site-packages/pandas/core/generic.py", line 6212, in astype
+    raise KeyError(
+KeyError: "Only a column name can be used for the key in a dtype mappings argument. 'open' not found in columns."
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Successful API access [URL: <Mock name='mock.url' id='130768169306336'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768169306336'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768169306336'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768169306336'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768169306336'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768169306336'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768169306336'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768169306336'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768169306336'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768169306336'>, status: 200]
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+Yearly dividends series successfully generated.
+Yearly dividends series successfully generated.
+Yearly dividends series successfully generated.
+Yearly dividends series successfully generated.
+Yearly dividends series successfully generated.
+Yearly dividends series successfully generated.
+Yearly dividends series successfully generated.
+Yearly dividends series successfully generated.
+Yearly dividends series successfully generated.
+Yearly dividends series successfully generated.
+Yearly dividends series successfully generated.
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Successful API access [URL: <Mock name='mock.url' id='130768168633920'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768168633920'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768168633920'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768168633920'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768168633920'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768168633920'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768168633920'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768168633920'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768168633920'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768168633920'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768168633920'>, status: 200]
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+Yearly dividends series successfully generated.
+Yearly dividends series successfully generated.
+Yearly dividends series successfully generated.
+Yearly dividends series successfully generated.
+Yearly dividends series successfully generated.
+Yearly dividends series successfully generated.
+Yearly dividends series successfully generated.
+Yearly dividends series successfully generated.
+Yearly dividends series successfully generated.
+Yearly dividends series successfully generated.
+Yearly dividends series successfully generated.
+Yearly dividends series successfully generated.
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Successful API access [URL: <Mock name='mock.url' id='130768169304800'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768169304800'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768169304800'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768169304800'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768169304800'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768169304800'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768169304800'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768169304800'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768169304800'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768169304800'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768169304800'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768169304800'>, status: 200]
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Successful API access [URL: <Mock name='mock.url' id='130768169305184'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768169305184'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768169305184'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768169305184'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768169305184'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768169305184'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768169305184'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768169305184'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768169305184'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768169305184'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768169305184'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768169305184'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768169305184'>, status: 200]
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Successful API access [URL: <Mock name='mock.url' id='130768170438368'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768170438368'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768170438368'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768170438368'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768170438368'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768170438368'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768170438368'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768170438368'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768170438368'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768170438368'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768170438368'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768170438368'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768170438368'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='130768170438368'>, status: 200]
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+DataFrame successfully built.
+API key configuration
+Finance API access...
+Successful API access [URL: <Mock name='mock.url' id='132543023676720'>, status: 200]
+Finance API query response processing...
+Metadata and data fields found
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Finance API query data validation...
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+DataFrame successfully built.
+DataFrame successfully built.
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+Finance API access...
+Finance API access...
+Successful API access [URL: <Mock name='mock.url' id='132543022515440'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543022515440'>, status: 200]
+Finance API query response processing...
+Finance API query response processing...
+Metadata and data fields found
+Metadata and data fields found
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'AAPL', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'AAPL', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Data: '{"2024-04-15": {"1. open": "175.3600", "2. high": "176.6300", "3. low": "172.5000", "4. close": "172.6900", "5. adjusted close": "172.6900", "6. volume": "73531773", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. ...'
+Data: '{"2024-04-15": {"1. open": "175.3600", "2. high": "176.6300", "3. low": "172.5000", "4. close": "172.6900", "5. adjusted close": "172.6900", "6. volume": "73531773", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. ...'
+Finance API query data validation...
+Finance API query data validation...
+Metadata key '2. Symbol' = 'AAPL' found
+Metadata key '2. Symbol' = 'AAPL' found
+Metadata key '2. Symbol' = 'AAPL' found
+Metadata key '2. Symbol' = 'AAPL' found
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+API key configuration
+API key configuration
+API key configuration
+Finance API access...
+Finance API access...
+Finance API access...
+Successful API access [URL: <Mock name='mock.url' id='132543022517024'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543022517024'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543022517024'>, status: 200]
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+to_date cannot be less than from_date.
+to_date cannot be less than from_date.
+to_date cannot be less than from_date.
+to_date cannot be less than from_date.
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Successful API access [URL: <Mock name='mock.url' id='132543022516592'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543022516592'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543022516592'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543022516592'>, status: 200]
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+Weekly price series successfully generated.
+Weekly price series successfully generated.
+Weekly price series successfully generated.
+Weekly price series successfully generated.
+Weekly price series successfully generated.
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Successful API access [URL: <Mock name='mock.url' id='132543022515680'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543022515680'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543022515680'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543022515680'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543022515680'>, status: 200]
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+Weekly price series successfully generated.
+Weekly price series successfully generated.
+Weekly price series successfully generated.
+Weekly price series successfully generated.
+Weekly price series successfully generated.
+Weekly price series successfully generated.
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Successful API access [URL: <Mock name='mock.url' id='132543021149008'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543021149008'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543021149008'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543021149008'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543021149008'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543021149008'>, status: 200]
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+to_date cannot be less than from_date.
+to_date cannot be less than from_date.
+to_date cannot be less than from_date.
+to_date cannot be less than from_date.
+to_date cannot be less than from_date.
+to_date cannot be less than from_date.
+to_date cannot be less than from_date.
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Successful API access [URL: <Mock name='mock.url' id='132543021148768'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543021148768'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543021148768'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543021148768'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543021148768'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543021148768'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543021148768'>, status: 200]
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+Weekly volume series successfully generated.
+Weekly volume series successfully generated.
+Weekly volume series successfully generated.
+Weekly volume series successfully generated.
+Weekly volume series successfully generated.
+Weekly volume series successfully generated.
+Weekly volume series successfully generated.
+Weekly volume series successfully generated.
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Successful API access [URL: <Mock name='mock.url' id='132543019643568'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543019643568'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543019643568'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543019643568'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543019643568'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543019643568'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543019643568'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543019643568'>, status: 200]
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+Weekly volume series successfully generated.
+Weekly volume series successfully generated.
+Weekly volume series successfully generated.
+Weekly volume series successfully generated.
+Weekly volume series successfully generated.
+Weekly volume series successfully generated.
+Weekly volume series successfully generated.
+Weekly volume series successfully generated.
+Weekly volume series successfully generated.
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Successful API access [URL: <Mock name='mock.url' id='132543017691648'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543017691648'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543017691648'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543017691648'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543017691648'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543017691648'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543017691648'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543017691648'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543017691648'>, status: 200]
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata: '{'1. Information': 'Weekly Adjusted Time Series', '2. Symbol': 'NODATA', '3. Last Refreshed': '2024-04-01'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Time Series', '2. Symbol': 'NODATA', '3. Last Refreshed': '2024-04-01'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Time Series', '2. Symbol': 'NODATA', '3. Last Refreshed': '2024-04-01'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Time Series', '2. Symbol': 'NODATA', '3. Last Refreshed': '2024-04-01'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Time Series', '2. Symbol': 'NODATA', '3. Last Refreshed': '2024-04-01'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Time Series', '2. Symbol': 'NODATA', '3. Last Refreshed': '2024-04-01'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Time Series', '2. Symbol': 'NODATA', '3. Last Refreshed': '2024-04-01'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Time Series', '2. Symbol': 'NODATA', '3. Last Refreshed': '2024-04-01'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Time Series', '2. Symbol': 'NODATA', '3. Last Refreshed': '2024-04-01'}'
+Data: '{}...'
+Data: '{}...'
+Data: '{}...'
+Data: '{}...'
+Data: '{}...'
+Data: '{}...'
+Data: '{}...'
+Data: '{}...'
+Data: '{}...'
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Metadata key '2. Symbol' = 'NODATA' found
+Metadata key '2. Symbol' = 'NODATA' found
+Metadata key '2. Symbol' = 'NODATA' found
+Metadata key '2. Symbol' = 'NODATA' found
+Metadata key '2. Symbol' = 'NODATA' found
+Metadata key '2. Symbol' = 'NODATA' found
+Metadata key '2. Symbol' = 'NODATA' found
+Metadata key '2. Symbol' = 'NODATA' found
+Metadata key '2. Symbol' = 'NODATA' found
+Metadata key '2. Symbol' = 'NODATA' found
+Metadata key '2. Symbol' = 'NODATA' found
+Metadata key '2. Symbol' = 'NODATA' found
+Metadata key '2. Symbol' = 'NODATA' found
+Metadata key '2. Symbol' = 'NODATA' found
+Metadata key '2. Symbol' = 'NODATA' found
+Metadata key '2. Symbol' = 'NODATA' found
+Metadata key '2. Symbol' = 'NODATA' found
+Metadata key '2. Symbol' = 'NODATA' found
+Error building DataFrame.
+Traceback (most recent call last):
+  File "/home/marty/TEII/repo/finance/teii/finance/timeseries.py", line 80, in _build_data_frame
+    data_frame = data_frame.astype(dtype={name_type[0]: name_type[1]
+  File "/tmp/.tox/py38/lib/python3.8/site-packages/pandas/core/generic.py", line 6212, in astype
+    raise KeyError(
+KeyError: "Only a column name can be used for the key in a dtype mappings argument. 'open' not found in columns."
+Error building DataFrame.
+Traceback (most recent call last):
+  File "/home/marty/TEII/repo/finance/teii/finance/timeseries.py", line 80, in _build_data_frame
+    data_frame = data_frame.astype(dtype={name_type[0]: name_type[1]
+  File "/tmp/.tox/py38/lib/python3.8/site-packages/pandas/core/generic.py", line 6212, in astype
+    raise KeyError(
+KeyError: "Only a column name can be used for the key in a dtype mappings argument. 'open' not found in columns."
+Error building DataFrame.
+Traceback (most recent call last):
+  File "/home/marty/TEII/repo/finance/teii/finance/timeseries.py", line 80, in _build_data_frame
+    data_frame = data_frame.astype(dtype={name_type[0]: name_type[1]
+  File "/tmp/.tox/py38/lib/python3.8/site-packages/pandas/core/generic.py", line 6212, in astype
+    raise KeyError(
+KeyError: "Only a column name can be used for the key in a dtype mappings argument. 'open' not found in columns."
+Error building DataFrame.
+Traceback (most recent call last):
+  File "/home/marty/TEII/repo/finance/teii/finance/timeseries.py", line 80, in _build_data_frame
+    data_frame = data_frame.astype(dtype={name_type[0]: name_type[1]
+  File "/tmp/.tox/py38/lib/python3.8/site-packages/pandas/core/generic.py", line 6212, in astype
+    raise KeyError(
+KeyError: "Only a column name can be used for the key in a dtype mappings argument. 'open' not found in columns."
+Error building DataFrame.
+Traceback (most recent call last):
+  File "/home/marty/TEII/repo/finance/teii/finance/timeseries.py", line 80, in _build_data_frame
+    data_frame = data_frame.astype(dtype={name_type[0]: name_type[1]
+  File "/tmp/.tox/py38/lib/python3.8/site-packages/pandas/core/generic.py", line 6212, in astype
+    raise KeyError(
+KeyError: "Only a column name can be used for the key in a dtype mappings argument. 'open' not found in columns."
+Error building DataFrame.
+Traceback (most recent call last):
+  File "/home/marty/TEII/repo/finance/teii/finance/timeseries.py", line 80, in _build_data_frame
+    data_frame = data_frame.astype(dtype={name_type[0]: name_type[1]
+  File "/tmp/.tox/py38/lib/python3.8/site-packages/pandas/core/generic.py", line 6212, in astype
+    raise KeyError(
+KeyError: "Only a column name can be used for the key in a dtype mappings argument. 'open' not found in columns."
+Error building DataFrame.
+Traceback (most recent call last):
+  File "/home/marty/TEII/repo/finance/teii/finance/timeseries.py", line 80, in _build_data_frame
+    data_frame = data_frame.astype(dtype={name_type[0]: name_type[1]
+  File "/tmp/.tox/py38/lib/python3.8/site-packages/pandas/core/generic.py", line 6212, in astype
+    raise KeyError(
+KeyError: "Only a column name can be used for the key in a dtype mappings argument. 'open' not found in columns."
+Error building DataFrame.
+Traceback (most recent call last):
+  File "/home/marty/TEII/repo/finance/teii/finance/timeseries.py", line 80, in _build_data_frame
+    data_frame = data_frame.astype(dtype={name_type[0]: name_type[1]
+  File "/tmp/.tox/py38/lib/python3.8/site-packages/pandas/core/generic.py", line 6212, in astype
+    raise KeyError(
+KeyError: "Only a column name can be used for the key in a dtype mappings argument. 'open' not found in columns."
+Error building DataFrame.
+Traceback (most recent call last):
+  File "/home/marty/TEII/repo/finance/teii/finance/timeseries.py", line 80, in _build_data_frame
+    data_frame = data_frame.astype(dtype={name_type[0]: name_type[1]
+  File "/tmp/.tox/py38/lib/python3.8/site-packages/pandas/core/generic.py", line 6212, in astype
+    raise KeyError(
+KeyError: "Only a column name can be used for the key in a dtype mappings argument. 'open' not found in columns."
+Error building DataFrame.
+Traceback (most recent call last):
+  File "/home/marty/TEII/repo/finance/teii/finance/timeseries.py", line 80, in _build_data_frame
+    data_frame = data_frame.astype(dtype={name_type[0]: name_type[1]
+  File "/tmp/.tox/py38/lib/python3.8/site-packages/pandas/core/generic.py", line 6212, in astype
+    raise KeyError(
+KeyError: "Only a column name can be used for the key in a dtype mappings argument. 'open' not found in columns."
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Successful API access [URL: <Mock name='mock.url' id='132543017693040'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543017693040'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543017693040'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543017693040'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543017693040'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543017693040'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543017693040'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543017693040'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543017693040'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543017693040'>, status: 200]
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+Yearly dividends series successfully generated.
+Yearly dividends series successfully generated.
+Yearly dividends series successfully generated.
+Yearly dividends series successfully generated.
+Yearly dividends series successfully generated.
+Yearly dividends series successfully generated.
+Yearly dividends series successfully generated.
+Yearly dividends series successfully generated.
+Yearly dividends series successfully generated.
+Yearly dividends series successfully generated.
+Yearly dividends series successfully generated.
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Successful API access [URL: <Mock name='mock.url' id='132543023673984'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543023673984'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543023673984'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543023673984'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543023673984'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543023673984'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543023673984'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543023673984'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543023673984'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543023673984'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543023673984'>, status: 200]
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+Yearly dividends series successfully generated.
+Yearly dividends series successfully generated.
+Yearly dividends series successfully generated.
+Yearly dividends series successfully generated.
+Yearly dividends series successfully generated.
+Yearly dividends series successfully generated.
+Yearly dividends series successfully generated.
+Yearly dividends series successfully generated.
+Yearly dividends series successfully generated.
+Yearly dividends series successfully generated.
+Yearly dividends series successfully generated.
+Yearly dividends series successfully generated.
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Successful API access [URL: <Mock name='mock.url' id='132543017690160'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543017690160'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543017690160'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543017690160'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543017690160'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543017690160'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543017690160'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543017690160'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543017690160'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543017690160'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543017690160'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543017690160'>, status: 200]
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Successful API access [URL: <Mock name='mock.url' id='132543021146656'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543021146656'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543021146656'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543021146656'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543021146656'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543021146656'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543021146656'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543021146656'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543021146656'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543021146656'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543021146656'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543021146656'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543021146656'>, status: 200]
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+API key configuration
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Finance API access...
+Successful API access [URL: <Mock name='mock.url' id='132543017719600'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543017719600'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543017719600'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543017719600'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543017719600'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543017719600'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543017719600'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543017719600'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543017719600'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543017719600'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543017719600'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543017719600'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543017719600'>, status: 200]
+Successful API access [URL: <Mock name='mock.url' id='132543017719600'>, status: 200]
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Finance API query response processing...
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata and data fields found
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Metadata: '{'1. Information': 'Weekly Adjusted Prices and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2024-04-15', '4. Time Zone': 'US/Eastern'}'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Data: '{"2024-04-15": {"1. open": "185.5700", "2. high": "187.4800", "3. low": "180.8800", "4. close": "181.2500", "5. adjusted close": "181.2500", "6. volume": "3528140", "7. dividend amount": "0.0000"}, "2024-04-12": {"1. o...'
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Finance API query data validation...
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+Metadata key '2. Symbol' = 'IBM' found
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+DataFrame successfully built.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.
+Highest weekly variation successfully calculated.

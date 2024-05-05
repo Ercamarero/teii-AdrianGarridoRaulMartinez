@@ -30,12 +30,11 @@ def test_constructor_env(mocked_requests, monkeypatch):
 
     # Asegura que el cliente se ha creado correctamente
 
+
 @os.path('teii.finance.finance.requests.get')
-def test_constructor_unsuccessful_request(self,mock_get):
+def test_constructor_unsuccessful_request(self, mock_get):
     mock_get.side_effect = ConnectionError()
     with self.assertRaise(FinanceClientAPIError):
-    
-
 
 
 def test_weekly_price_invalid_dates(api_key_str,
