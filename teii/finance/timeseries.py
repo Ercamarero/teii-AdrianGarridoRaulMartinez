@@ -92,6 +92,26 @@ class TimeSeriesFinanceClient(FinanceClient):
         Query generada.
     """
 
+
+            # Set data field types
+            data_frame = data_frame.astype(dtype={name_type[0]: name_type[1]
+                                           for key, name_type in self._data_field2name_type.items()})
+
+            # Set index type
+            data_frame.index = data_frame.index.astype("datetime64[ns]")
+
+            # Sort data
+            self._data_frame = data_frame.sort_index(ascending=True)
+        except Exception as e:
+            raise FinanceClientInvalidData("Invalid data") from e
+    """
+    def _build_base_query_url_params(self) -> str:
+        Genera la query de los datos que queremos tratar.
+    Returns
+    -------
+     String
+        Query generada.
+    """
     def _build_base_query_url_params(self) -> str:
         """ Return base query URL parameters.
 
@@ -223,6 +243,7 @@ class TimeSeriesFinanceClient(FinanceClient):
 
         return annual_dividends
 
+
     def highest_weekly_variation(self,
                                  from_date: Optional[dt.date] = None,
                                  to_date: Optional[dt.date] = None) -> Tuple[dt.date, float, float, float]:
@@ -246,3 +267,4 @@ class TimeSeriesFinanceClient(FinanceClient):
             raise ValueError("Index must be a Timestamp")
 
         return max_index.date(), series_high[max_index], series_low[max_index], series_high_low[max_index]
+
