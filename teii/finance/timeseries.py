@@ -3,7 +3,7 @@
 
 import datetime as dt
 import logging
-from typing import Optional, Union
+from typing import Optional, Tuple, Union
 
 import pandas as pd
 
@@ -57,6 +57,7 @@ class TimeSeriesFinanceClient(FinanceClient):
         FinanceCLientInvalidData
             datos inexistentes o innacesibles.
     """
+
     def _build_data_frame(self) -> None:
         """ Build Panda's DataFrame and format data. """
 
@@ -90,6 +91,7 @@ class TimeSeriesFinanceClient(FinanceClient):
      String
         Query generada.
     """
+
     def _build_base_query_url_params(self) -> str:
         """ Return base query URL parameters.
 
@@ -123,6 +125,7 @@ class TimeSeriesFinanceClient(FinanceClient):
         FinanceClientInvalidData
             los datos no se pueden localizar o usar.
     """
+
     def _validate_query_data(self) -> None:
         """ Validate query data. """
 
@@ -145,6 +148,7 @@ class TimeSeriesFinanceClient(FinanceClient):
         Serie Pandas
             Serie de precios indexados por semanas.
     """
+
     def weekly_price(self,
                      from_date: Optional[dt.date] = None,
                      to_date: Optional[dt.date] = None) -> pd.Series:
@@ -178,6 +182,7 @@ class TimeSeriesFinanceClient(FinanceClient):
         Serie Pandas
             Serie que contiene el volumen de ventas indexado por las semanas de un tramo.
     """
+
     def weekly_volume(self,
                       from_date: Optional[dt.date] = None,
                       to_date: Optional[dt.date] = None) -> pd.Series:
@@ -217,3 +222,27 @@ class TimeSeriesFinanceClient(FinanceClient):
             annual_dividends = annual_dividends[pd.to_datetime(annual_dividends.index).year <= to_year]
 
         return annual_dividends
+
+    def highest_weekly_variation(self,
+                                 from_date: Optional[dt.date] = None,
+                                 to_date: Optional[dt.date] = None) -> Tuple[dt.date, float, float, float]:
+        """Return highest weekly variation from 'from_date' to 'to_date'."""
+        assert self._data_frame is not None
+
+        series_high = self._data_frame['high']
+        series_low = self._data_frame['low']
+        # Utilizar las fechas convertidas para filtrar el DataFrame
+        if from_date is not None and to_date is not None:
+            # Asegurarse de que las fechas son inclusivas al final del período
+            series_high = series_high.loc[from_date:to_date]  # type: ignore
+            series_low = series_low.loc[from_date:to_date]  # type: ignore
+        # Calcular la variación semanal entre precios altos y bajos
+
+        series_high_low = series_high - series_low
+        max_index = series_high_low.idxmax()
+
+        # Asegurarse de que el índice es un Timestamp y extraer la fecha
+        if not isinstance(max_index, pd.Timestamp):
+            raise ValueError("Index must be a Timestamp")
+
+        return max_index.date(), series_high[max_index], series_low[max_index], series_high_low[max_index]
