@@ -14,6 +14,7 @@ import requests
 
 from teii.finance import (FinanceClientAPIError, FinanceClientInvalidAPIKey,
                           FinanceClientInvalidData, FinanceClientIOError)
+
 """
 Clase Cliente:
 recoge los datos de la API en el momento de contruccion de los datos en el JSON.
@@ -40,6 +41,7 @@ class FinanceClient(ABC):
     FinanceCLient: self
         Objeto wrapper de la API Finance.
     """
+
     def __init__(self, ticker: str,
                  api_key: Optional[str] = None,
                  logging_level: Union[int, str] = logging.WARNING,
@@ -77,6 +79,7 @@ class FinanceClient(ABC):
     def _setup_logging(self,logging_level: Union[int, str], logging_file: Optional[str]) -> None:
     Funcion que getiona el logger con los parametros antes mencionados.
     """
+
     def _setup_logging(self,
                        logging_level: Union[int, str],
                        logging_file: Optional[str]) -> None:
@@ -121,6 +124,7 @@ class FinanceClient(ABC):
     -------
     Objetos tipo Requests
     """
+
     def _query_api(self) -> requests.Response:
         """ Query API endpoint. """
 
@@ -203,6 +207,7 @@ class FinanceClient(ABC):
     -------
     DataFrame
     """
+
     def to_pandas(self) -> pd.DataFrame:
         """ Return pandas data frame from json data. """
 
@@ -226,6 +231,7 @@ class FinanceClient(ABC):
             ruta del CSV
 
     """
+
     def to_csv(self, path2file: Path) -> Path:
         """ Write json data into csv file 'path2file'. """
 
