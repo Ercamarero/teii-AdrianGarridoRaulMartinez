@@ -57,7 +57,7 @@ def test_weekly_price_dates(api_key_str,
     ps = fc.weekly_price(dt.date(year=2021, month=1, day=1),
                          dt.date(year=2023, month=12, day=31))
 
-    assert ps.count() == 156    # 2021-01-01 to 2023-12-31 (156 business weeks)
+    assert ps.count() == 156   # 2021-01-01 to 2023-12-31 (156 business weeks)
 
     assert ps.count() == pandas_series_IBM_prices_filtered.count()
 

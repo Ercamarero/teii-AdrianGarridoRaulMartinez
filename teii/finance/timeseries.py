@@ -43,10 +43,10 @@ class TimeSeriesFinanceClient(FinanceClient):
 
     def __init__(self, ticker: str,
                  api_key: Optional[str] = None,
-                 logging_level: Union[int, str] = logging.DEBUG) -> None:
+                 logging_level: Union[int, str] = logging.WARNING) -> None:
         """ TimeSeriesFinanceClient constructor. """
 
-        super().__init__(ticker, api_key, logging_level, "timeseries.log")
+        super().__init__(ticker, api_key, logging_level)
 
         self._build_data_frame()
     """
