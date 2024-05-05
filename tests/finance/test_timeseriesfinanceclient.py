@@ -1,5 +1,6 @@
 """ Unit tests for teii.finance.timeseries module """
 
+
 import datetime as dt
 
 import pytest
