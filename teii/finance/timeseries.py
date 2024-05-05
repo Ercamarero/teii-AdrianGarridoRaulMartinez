@@ -58,6 +58,7 @@ class TimeSeriesFinanceClient(FinanceClient):
             datos inexistentes o innacesibles.
     """
 
+    
     def _build_data_frame(self) -> None:
         """ Build Panda's DataFrame and format data. """
 
@@ -71,6 +72,7 @@ class TimeSeriesFinanceClient(FinanceClient):
             # Rename data fields
             data_frame = data_frame.rename(columns={key: name_type[0]
                                            for key, name_type in self._data_field2name_type.items()})
+
 
             # Set data field types
             data_frame = data_frame.astype(dtype={name_type[0]: name_type[1]
@@ -92,6 +94,7 @@ class TimeSeriesFinanceClient(FinanceClient):
         Query generada.
     """
 
+   
     def _build_base_query_url_params(self) -> str:
         """ Return base query URL parameters.
 
@@ -126,6 +129,7 @@ class TimeSeriesFinanceClient(FinanceClient):
             los datos no se pueden localizar o usar.
     """
 
+
     def _validate_query_data(self) -> None:
         """ Validate query data. """
 
@@ -148,6 +152,7 @@ class TimeSeriesFinanceClient(FinanceClient):
         Serie Pandas
             Serie de precios indexados por semanas.
     """
+
 
     def weekly_price(self,
                      from_date: Optional[dt.date] = None,
@@ -183,6 +188,7 @@ class TimeSeriesFinanceClient(FinanceClient):
             Serie que contiene el volumen de ventas indexado por las semanas de un tramo.
     """
 
+    
     def weekly_volume(self,
                       from_date: Optional[dt.date] = None,
                       to_date: Optional[dt.date] = None) -> pd.Series:
@@ -223,6 +229,7 @@ class TimeSeriesFinanceClient(FinanceClient):
 
         return annual_dividends
 
+      
     def highest_weekly_variation(self,
                                  from_date: Optional[dt.date] = None,
                                  to_date: Optional[dt.date] = None) -> Tuple[dt.date, float, float, float]:
