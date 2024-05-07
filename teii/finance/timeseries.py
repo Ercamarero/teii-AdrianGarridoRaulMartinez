@@ -215,6 +215,21 @@ class TimeSeriesFinanceClient(FinanceClient):
         self._logger.info("Weekly volume series successfully generated.")
         return series
 
+    """
+    def yearly_dividends
+        Funcion para el calculo de los dividendos anuales asociados al ticker del FinanceClient
+        en un periodo de años o a lo largo de toda su historia registrada.
+    Parametres
+    ----------
+    from_year: entero.
+        Numero que hace referencia desde que año estamos calculando en caso de nulo se hace desde el principio.
+    to_year: entero
+        Numero que hace referencia a la condicion de parada de la busqueda en caso de nulo se hará hasta el final.
+    Returns
+    -------
+    serie: pd.Series
+        Devuelve una pandas series con la asociacion fecha, dividendos totales del año.
+    """
     def yearly_dividends(self,
                          from_year: Optional[int] = None,
                          to_year: Optional[int] = None) -> pd.Series:
@@ -236,6 +251,20 @@ class TimeSeriesFinanceClient(FinanceClient):
         self._logger.info("Yearly dividends series successfully generated.")
         return annual_dividends
 
+    """
+     def highest_weekly_variation
+     Parametres
+     ----------
+     from_date: date
+        fecha de inicio de evaluacion de los datos en caso de nulo se recogen desde el inicio.
+     to_date: date
+        fecha de fin de evaluacion de los  en caso de nulo se realiza el fichero hasta el final.
+     Returns
+     -------
+     Tupla:
+     -------
+        asocia la fecha examinada con las variaciones de la semana.
+    """
     def highest_weekly_variation(self,
                                  from_date: Optional[dt.date] = None,
                                  to_date: Optional[dt.date] = None) -> Tuple[dt.date, float, float, float]:
