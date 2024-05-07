@@ -214,9 +214,10 @@ class TimeSeriesFinanceClient(FinanceClient):
 
         self._logger.info("Weekly volume series successfully generated.")
         return series
+
     """
     def yearly_dividends
-        Funcion para el calculo de los dividendos anuales asociados al ticker del FinanceClient 
+        Funcion para el calculo de los dividendos anuales asociados al ticker del FinanceClient
         en un periodo de años o a lo largo de toda su historia registrada.
     Parametres
     ----------
